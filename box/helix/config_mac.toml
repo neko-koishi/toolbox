@@ -1,0 +1,104 @@
+theme = "base16_transparent"
+[editor]
+"auto-format" = false
+
+[keys.insert]
+"Cmd-p" = "completion"
+"Cmd-/" = "toggle_comments"
+
+[keys.normal]
+"]" = "jump_view_right"
+"[" = "jump_view_left"
+
+"C-]" = ":buffer-next"
+"C-[" = ":buffer-previous"
+
+"j" = "move_char_left"
+"l" = "move_char_right"
+"i" = "move_visual_line_up"
+"k" = "move_visual_line_down"
+
+"Cmd-i" = "scroll_up"
+"Cmd-k" = "scroll_down"
+
+"S-j" = "move_prev_word_start"
+"S-l" = "move_next_word_start"
+"S-i" = "page_cursor_half_up"
+"S-k" = "page_cursor_half_down"
+
+"u" = "yank"
+"S-u" = "yank_main_selection_to_clipboard"
+"o" = "paste_after"
+"O" = "paste_before"
+
+"Cmd-s" = ":write"
+
+"m" = "save_selection"
+"<" = "jump_backward"
+">" = "jump_forward"
+
+"s" = "select_mode"
+"w" = "insert_mode"
+"Cmd-/" = "toggle_comments"
+"r" = "replace_with_yanked"
+"f" = "search"
+
+"S-z" = "redo"
+"z" = "undo"
+
+"p" = "open_below"
+"P" = "open_above"
+
+"c" = "copy_selection_on_next_line"
+"C" = "keep_primary_selection"
+
+"S-d" = "delete_selection"
+"d" = "delete_selection_noyank"
+
+
+[keys.select]
+"j" = "extend_char_left"
+"l" = "extend_char_right"
+"i" = "extend_line_up"
+"k" = "extend_line_down"
+
+"Cmd-j" = "extend_char_left"
+"Cmd-l" = "extend_char_right"
+"Cmd-i" = "extend_line_up"
+"Cmd-k" = "extend_line_down"
+
+"S-j" = "move_prev_long_word_start"
+"S-l" = "move_next_long_word_start"
+"S-i" = "page_cursor_half_up"
+"S-k" = "page_cursor_half_down"
+
+"r" = "replace_with_yanked"
+
+"u" = "yank"
+"S-u" = "yank_main_selection_to_clipboard"
+
+"o" = "paste_after"
+"O" = "paste_before"
+
+"w" = "extend_prev_word_start"
+"W" = "extend_prev_long_word_start"
+
+"S-d" = "delete_selection"
+"d" = "delete_selection_noyank"
+
+"Cmd-/" = "toggle_comments"
+
+
+[keys.select.space]
+"S-u" = "yank_main_selection_to_clipboard"
+"u" = "yank_to_clipboard"
+"S-o" = "paste_clipboard_before"
+"o" = "paste_clipboard_after"
+"r" = "replace_selections_with_clipboard"
+
+[keys.normal.space]
+"S-u" = "yank_main_selection_to_clipboard"
+"u" = "yank_to_clipboard"
+"S-o" = "paste_clipboard_before"
+"o" = "paste_clipboard_after"
+"r" = "replace_selections_with_clipboard"
